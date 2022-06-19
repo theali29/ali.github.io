@@ -1,0 +1,91 @@
+LAB PROJECT
+Deparmental Store Management System
+Your task is to design a departmental store management system. The store has multiple shelves with numbers on it for placing multiple items, initially the shelf 
+is empty, means that there is no item on the shelf. The store consists of k number of shelves, and each shelf has exactly p number of positions for items to be placed
+on it. The store wants to design a software to keep the records of item on the shelves. The software should be able to perform the following operations:
+1.	Insert the item at a particular position in a given shelf, if it’s empty else place the item in the first empty location in that shelf, and if there is no
+location empty on that shelf then do not insert it and display the appropriate message to the user.
+2.	Display all the items in a given shelf.
+3.	Remove the item from particular position in a given shelf if it is there.
+4.	Remove all the item from a given shelf
+5.	Return total number of the items in the specified shelf
+6.	Return the total number of items in all the shelves.
+7.	Find item in the store and return the shelf number and its position if it exists.
+8.	Update the item at given position (can be empty or filled) by replacing it with the new item.
+9.	Check if the shelf is empty
+10.	Check if the shelf is full
+Your process will start for asking number of shelves (k) and (p) positions on each shelf (Each shelf can have varying storage positions)
+
+Sample Input/Output:
+•	Enter no of shelves: 2
+•	Enter no of positions on each shelf: 4
+********** Menu **********
+•	Press 1 for Inserting an item.
+
+•	Press 2 for Displaying all items.
+
+•	Press 3 for Remove an item.
+
+•	Press 4 for Remove all the items.
+
+•	Press 5 for Return total no of items.
+
+•	Press 6 for find an item.
+
+•	Press 7 for updating an item.
+
+•	Press 8 to check if shelf is empty.
+
+•	Press 9 to check if shelf is full.
+
+•	Press 0 to Quit.
+
+•	Enter Choice: 1
+Enter Shelf: 1	Enter Position: 1
+Enter Item: Glass
+Added successfully!
+
+•	Enter Choice: 1
+Enter Shelf: 1	Enter Position: 2
+Enter Item: Bag
+Added successfully!
+
+•	Enter Choice: 1
+Enter Shelf: 2	Enter Position: 1
+Enter Item: Biscuit Box
+Added successfully!
+
+•	Enter Choice: 5
+Total no of items: 3
+
+•	Enter Choice: 6
+Enter item name to find: Bag
+Item found at:	Shelf: 1		Position: 2
+
+•	Enter Choice: 7
+Enter shelf no to update: 3
+Error! Shelf not found.
+
+•	Enter Choice: 7
+Enter shelf no to update: 2		Enter position: 1
+Enter item to update with: Bottle
+Shelf updated!
+
+•	Enter Choice: 3
+Enter shelf no to remove item: 1	Enter position: 2
+Item removed!
+
+•	Enter Choice: 9
+Enter shelf no: 2
+Shelf 2 is not full.
+
+•	Enter Choice: 4
+All items removed from every shelf!
+
+•	Enter Choice: 8
+Enter shelf no: 1
+Shelf 1 is empty.
+
+•	Enter Choice: 0
+Thank  you!
+
